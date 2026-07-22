@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://dlulp8yg71svm"]
+
+[ext_resource type="Script" uid="uid://cukykutbdr74l" path="res://addons/primitive_2d/animated_primitive_2d.gd" id="1_l20p6"]
+[ext_resource type="Script" uid="uid://c0um1pcpo36ny" path="res://addons/primitive_2d/primitive_keyframe.gd" id="2_vephn"]
+[ext_resource type="Script" uid="uid://mbr4i1adj54l" path="res://addons/primitive_2d/primitive_2d.gd" id="3_b0nem"]
+
+[sub_resource type="Resource" id="Resource_x0xbu"]
+script = ExtResource("2_vephn")
+vertices = PackedVector2Array(408.36368, 154.90909, 537.4546, 251.27274, 641.09094, 164.90909, 772, 155.81818, 846.5454, 309.45456, 523.81824, 524.90906, 269.2728, 352.18182, 288.36368, 187.63635)
+fill_color = Color(0.90832007, 0.38409156, 0.5700938, 1)
+outline_color = Color(0.4117647, 0, 0.36078432, 1)
+outline_width = 18.2
+tween_type = 6
+
+[sub_resource type="Resource" id="Resource_3w7jh"]
+script = ExtResource("2_vephn")
+time = 0.9705882352941178
+vertices = PackedVector2Array(381.09076, 211.27275, 537.4546, 251.27274, 569.2726, 81.27275, 811.9999, 88.54549, 836.5453, 527.63635, 523.81824, 524.90906, 147.45444, 520.36365, 219.27258, 276.7273)
+fill_color = Color(0.8709952, 0.4591418, 0.3365946, 1)
+outline_color = Color(0.19499299, 0.060122974, 0.0154239265, 1)
+outline_width = 10.3
+tween_type = 5
+
+[sub_resource type="Resource" id="Resource_uvnpu"]
+script = ExtResource("2_vephn")
+time = 1.988235294117647
+vertices = PackedVector2Array(432.90894, 212.18184, 642.90894, 201.27275, 806.5453, 269.4546, 994.7272, 132.18184, 990.18164, 522.1818, 784.7272, 398.54547, 472.90894, 488.54547, 223.81805, 339.4546)
+fill_color = Color(0.017404657, 0.6396911, 0.8837722, 1)
+outline_color = Color(1, 1, 1, 1)
+outline_width = 33.555
+tween_type = 2
+
+[sub_resource type="Resource" id="Resource_icdf1"]
+script = ExtResource("2_vephn")
+time = 3.0
+vertices = PackedVector2Array(408.36368, 154.90909, 537.4546, 251.27274, 641.09094, 164.90909, 772, 155.81818, 846.5454, 309.45456, 523.81824, 524.90906, 269.2728, 352.18182, 288.36368, 187.63635)
+fill_color = Color(0.90832007, 0.38409156, 0.5700938, 1)
+outline_color = Color(0.4117647, 0, 0.36078432, 1)
+outline_width = 18.2
+tween_type = 6
+
+[node name="Demo" type="Control" unique_id=1870420267]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AnimatedPrimitive2D" type="Control" parent="." unique_id=64989185]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l20p6")
+keyframes = Array[ExtResource("2_vephn")]([SubResource("Resource_x0xbu"), SubResource("Resource_3w7jh"), SubResource("Resource_uvnpu"), SubResource("Resource_icdf1")])
+timeline_length = 3.0
+vertices = PackedVector2Array(432.90894, 212.18184, 642.90894, 201.27275, 806.5453, 269.4546, 994.7272, 132.18184, 990.18164, 522.1818, 784.7272, 398.54547, 472.90894, 488.54547, 223.81805, 339.4546)
+fill_color = Color(0.017404657, 0.6396911, 0.8837722, 1)
+outline_color = Color(1, 1, 1, 1)
+outline_width = 33.555
+
+[node name="Primitive2D" type="Control" parent="." unique_id=634172842]
+visible = false
+anchors_preset = 0
+script = ExtResource("3_b0nem")
+vertices = PackedVector2Array(1085, 375, 996, 198, 797.7788, 579.1538)
+fill_color = Color(0.4, 0.85, 0.75, 1)
+outline_color = Color(1, 1, 1, 1)
