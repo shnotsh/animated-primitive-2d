@@ -1,4 +1,4 @@
-# animated-primitive-2d
+# <img src="icon.svg" width="42" height="42" align="top" /> Animated Primitive 2D (Primitive 2D)
 
 A Godot 4.7 project built around **Primitive2D**, a small addon for drawing custom 2D vector shapes and morphing them between keyframed poses — all editable directly in the 2D viewport, no separate animation tooling required.
 
