@@ -14,17 +14,17 @@ tween_type = 6
 
 [sub_resource type="Resource" id="Resource_3w7jh"]
 script = ExtResource("2_vephn")
-time = 0.9705882352941178
+time = 0.9588235294117646
 vertices = PackedVector2Array(381.09076, 211.27275, 537.4546, 251.27274, 569.2726, 81.27275, 811.9999, 88.54549, 836.5453, 527.63635, 523.81824, 524.90906, 147.45444, 520.36365, 219.27258, 276.7273)
-fill_color = Color(0.8709952, 0.4591418, 0.3365946, 1)
-outline_color = Color(0.19499299, 0.060122974, 0.0154239265, 1)
-outline_width = 10.3
+fill_color = Color(0.3947755, 0.668347, 0.3996842, 1)
+outline_color = Color(0.0060787573, 0.2512141, 0.31028956, 1)
+outline_width = 48.045
 tween_type = 5
 
 [sub_resource type="Resource" id="Resource_uvnpu"]
 script = ExtResource("2_vephn")
 time = 1.988235294117647
-vertices = PackedVector2Array(432.90894, 212.18184, 642.90894, 201.27275, 806.5453, 269.4546, 994.7272, 132.18184, 990.18164, 522.1818, 784.7272, 398.54547, 472.90894, 488.54547, 223.81805, 339.4546)
+vertices = PackedVector2Array(344, 195, 548, 190, 714, 246, 887, 135, 893, 513, 703, 413, 436, 493, 129, 338)
 fill_color = Color(0.017404657, 0.6396911, 0.8837722, 1)
 outline_color = Color(1, 1, 1, 1)
 outline_width = 33.555
@@ -57,7 +57,7 @@ grow_vertical = 2
 script = ExtResource("1_l20p6")
 keyframes = Array[ExtResource("2_vephn")]([SubResource("Resource_x0xbu"), SubResource("Resource_3w7jh"), SubResource("Resource_uvnpu"), SubResource("Resource_icdf1")])
 timeline_length = 3.0
-vertices = PackedVector2Array(432.90894, 212.18184, 642.90894, 201.27275, 806.5453, 269.4546, 994.7272, 132.18184, 990.18164, 522.1818, 784.7272, 398.54547, 472.90894, 488.54547, 223.81805, 339.4546)
+vertices = PackedVector2Array(344, 195, 548, 190, 714, 246, 887, 135, 893, 513, 703, 413, 436, 493, 129, 338)
 fill_color = Color(0.017404657, 0.6396911, 0.8837722, 1)
 outline_color = Color(1, 1, 1, 1)
 outline_width = 33.555

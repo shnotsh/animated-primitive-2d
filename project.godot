@@ -26,7 +26,7 @@ movie_writer/movie_file="/Users/sh/Desktop/test.ogv"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/primitive_2d_editor/plugin.cfg")
+enabled=PackedStringArray("res://addons/primitive_2d/plugin.cfg")
 
 [physics]
 
@@ -37,3 +37,4 @@ enabled=PackedStringArray("res://addons/primitive_2d_editor/plugin.cfg")
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
