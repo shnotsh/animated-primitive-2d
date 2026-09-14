@@ -9,6 +9,7 @@
 config_version=5
 
 [application]
+config/tags=PackedStringArray("public")
 
 config/name="animated-primitive"
 run/main_scene="res://addons/primitive_2d/demo.tscn"
